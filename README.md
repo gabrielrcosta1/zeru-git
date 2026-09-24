@@ -16,6 +16,20 @@ mark is drawn as vectors in `Views/BrandMark.swift` for the welcome screen, so i
 stays crisp at any size. Brand orange is used for identity only — the state
 colours (green, amber, red, blue) keep their meaning.
 
+## Quick start
+
+One command, on any Mac with macOS 13+:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/gabrielrcosta1/zeru-git/main/bootstrap.sh | bash
+```
+
+It installs the Xcode command line tools if they are missing, clones the source
+into `~/.git-agent`, builds, installs the app, offers to install and log in to
+the Cursor CLI, and opens it. Run the same command again to update.
+
+Already cloned the repo? `./install.sh` does the same from there.
+
 ## Install
 
 ```bash
